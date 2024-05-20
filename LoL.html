@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Minh Huyền Thoại</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#champion-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.champion {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.champion img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.champion h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 1.2em;
+}
+ .container {
+            text-align: center;
+        }
+		nav ul li {
+            display: inline;
+            margin-left: 20px;
+        }
+		 ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+		
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+			}
+        nav ul li a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #888;
+        }
+		 a {
+            text-decoration: none;
+        }
+        a:link {
+            color: #939;
+        }
+        a:visited {
+            color: #937393;
+        }
+        a:focus, a:hover {
+            color: #c700f2;
+            background-color: #fff;
+        }
+        a:active {
+            color: #f0f;
+            background-color: #fff;
+        }
+ </style>
+</head>
+<body>
+<div class="container">
+<img width="500px" height="225px" src="images/logolol2.png" alt="Hinh anh" title="Biểu tượng của game">
+</div>
+    <header>
+        <h1>Liên Minh Huyền Thoại</h1>
+        <nav>
+            <ul>
+                <li><a href="trangchu.html">Trang Chủ</a></li>
+                <li><a href="cach_choi.html">Lối Chơi</a></li>
+                <li><a href="nhaphathanh.html">Hưởng Ứng</a></li>
+                <li><a href="nhanvat.html">Nhân Vật</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Trang Chủ</h2>
+        <p>Liên Minh Huyền Thoại là một tựa game MOBA nổi tiếng do Riot Games phát triển. Trò chơi kết hợp giữa tốc độ và chiều sâu của các game chiến thuật thời gian thực với các yếu tố của game nhập vai.</p>
+    </section>
+
+    <section id="gameplay">
+        <h2>Lối Chơi</h2>
+        <p>Trong Liên Minh Huyền Thoại, người chơi sẽ nhập vai vào một nhân vật (được gọi là "tướng") và tham gia vào trận đấu 5v5. Mục tiêu là phá hủy căn cứ của đối phương với sự hỗ trợ của đồng đội.</p>
+    </section>
+
+    <section id="feedback">
+        <h2>Hưởng Ứng của Người Chơi</h2>
+        <p>Liên Minh Huyền Thoại nhận được sự hưởng ứng mạnh mẽ từ cộng đồng game thủ toàn cầu. Trò chơi được đánh giá cao về sự cân bằng, đồ họa và tính chiến thuật.</p>
+    </section>
+
+    <section id="characters">
+        <h2>Chi Tiết Về Nhân Vật</h2>
+        <p>Liên Minh Huyền Thoại có hơn 140 tướng với các kỹ năng và phong cách chơi đa dạng. Dưới đây là một số tướng tiêu biểu:</p>
+        <div id="champion-list"></div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

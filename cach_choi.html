@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lối chơi - Trang Web Game</title>
+    <link href='http://fonts.googleapis.com/css?family=Marko+One' rel='stylesheet' type='text/css'>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa;
+}
+        body {
+            body {
+             img {
+            max-width: 60%;
+            max-height: 60%;
+        }
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .content {
+            padding: 20px;
+        }
+  background {
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background-color: #d2dc9d;
+  /* background-image: url(images/bullseye.png);
+  background-position: center 200px; */
+  background-image: url(images/blackgoose.png);
+  background-repeat: no-repeat;
+  background-position: center 100px;
+  background-attachment: fixed;
+  background-image: center 100px;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+  background-image: url(images/purpledot.png);
+  background-repeat: repeat-x;
+  background-position: center top;
+  /* background-attachment: fixed; */
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+	  color: #939;
+}
+a:visited {
+	color: #937393;
+}
+a:focus, a:hover {
+	color: #c700f2;
+	background-color: #fff;
+}
+a:active {
+	color: #f0f;
+	background-color: #fff;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #939;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #c60;
+}
+dt {
+  font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+p.warning, sup {
+  font-size: small;
+}
+
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+.text-center{
+    text-align: center;
+}
+#wrapper{
+   max-width: 960px;
+   margin: 0 auto;
+   }
+   
+    .row{
+    display: flex;
+    justfy-content: space-between;
+    align-items: center;
+    }
+	
+    .col{
+    flex-basis: 33%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    }
+    .col img{
+         width: 100%;
+    }
+    .description-text{
+          width: 100%;
+          background-color: #9ADADB;
+          margin: 10px 0;
+          padding: 20px 0;
+          border-radius: 10px;
+    }
+    .description-text p{
+          width: 100%;
+          margin: auto;
+          text-align: center;
+          font-size: 17px;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.left p {
+    font-size: 20px; 
+    line-height: 1.5;
+    font-family: Verdana, sans-serif; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+	font-weight:bold;
+}
+
+nav ul li:not(:last-child) a::after {
+    content: " | "; /* Adding "|" between menu items */
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right img {
+    max-width: 300%;
+    height: auto;
+    max-height: 300px; 
+}
+
+
+.left h2{
+	font-size:24px;
+	color:red;
+}
+.left p,
+.left ul {
+	padding-left: 0px; 
+    
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+.left ul li {
+    margin-bottom: 20px; 
+	 list-style-type: square;
+    padding-left: 30px; 
+}
+.left ul li::before {
+    content: "\25A0"; 
+	display: inline-block;
+    width: 10px; 
+    margin-left: 20px;
+	margin-right:20px;
+	color: black;
+}
+
+    </style>
+</head>
+<body>
+<img width="250px" height="200px" src="images/logolol.jpg" alt="Hinh anh" title="Biểu tượng của game">
+<header>
+    <h1>Giới thiệu lối chơi</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="trangchu.html">Trang chủ</a></li>
+        <li><a href="cach_choi.html">Lối chơi</a></li>
+        <li><a href="nhaphathanh.html">Hưởng ứng</a></li>
+        <li><a href="nhanvat.html">Nhân vật</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <section id="how-to-play">
+        <h2>Thông tin về lối chơi của game</h2>
+
+<h2>Lối chơi</h2>
+<dd>
+<div class="text-center">
+<img width="700px" height="500px" src="images/ys.jpg" alt="Hinh anh" title="Hình ảnh các tướng (Champion) trong game">
+</div>
+<p><h3><strong>Liên Minh Huyền Thoại</strong> là một trò chơi đấu trường chiến đấu trực tuyến nhiều người chơi <strong>(MOBA)</strong>, trong đó người chơi điều khiển một nhân vật được gọi là <strong>"tướng (champion)"</strong> với góc nhìn từ trên xuống.<strong>Tính đến ngày 2 tháng 9 năm 2023, trò chơi đã có tổng cộng 175 vị tướng với các loại kỹ năng và lối chơi khác nhau.</strong> Trong suốt một trận đấu, các tướng sẽ tăng cấp bằng cách tích lũy điểm kinh nghiệm <strong>(XP)</strong> thông qua quá trình tiêu diệt kẻ thù. Ngoài ra, các vật phẩm trong cửa hàng có thể được mua để tăng sức mạnh cho tướng, các vật phẩm này đều được mua bằng vàng (một đơn vị tiền tệ trong trò chơi), người chơi có thể kiếm được vàng trong quá trình chơi bằng cách hạ gục tướng, lính, quái rừng hoặc các công trình phòng thủ của đội đối phương. Trong chế độ chơi chính (bản đồ Summoner's Rift), các vật phẩm được mua thông qua cửa hàng và chỉ có thể mua khi tướng đang ở bệ đá cổ. Mỗi trận đấu trong <strong>Liên Minh Huyền Thoại</strong> đều có tính duy nhất; cấp độ và vật phẩm sẽ không thể chuyển từ trận đấu này sang trận đấu khác.</h3></p>
+</dd>
+
+<dl>
+<dt><h1>Cơ chế của Game</h1></dt>
+<div class="text-center">
+<img width="700px" height="500px" src="images/3.jpg" alt="Hinh anh" title="Hình ảnh bản đồ Summoner's Rift">
+</div>
+<h3><dd>Mỗi trận đấu của <strong>Liên Minh Huyền Thoại</strong> đều được chia làm 2 đội chiến đấu với nhau theo cơ chế PvP, mỗi đội sẽ gồm có <strong>5</strong> người chơi bảo vệ một nửa bản đồ và tấn công một nửa còn lại. Người chơi trong trận đấu sẽ điều khiển một nhân vật, được gọi là <strong>"Tướng (Champion)"</strong>, với những kỹ năng độc đáo và phong cách chơi khác nhau. Trong trận đấu, các tướng sẽ trở nên mạnh mẽ hơn bằng cách thu thập <strong>điểm kinh nghiệm, vàng và các vật phẩm</strong> để đánh bại đội đối phương. Ở chế độ chính (bản đồ Summoner's Rift) và một số chế độ khác, một đội sẽ được tính là thắng nếu phá hủy được <strong>Nhà chính (Nexus)</strong> của đội đối thủ.</dd></h3>
+
+
+</body>
+</html>
